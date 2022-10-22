@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(15, 14, 14);
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#contato{
+    color: #f7fa4d;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#insta{
+    margin: auto;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #fff;
+    background-color: rgb(48, 48, 48);
+    border-radius: 5px;
+}
+
+#insta:hover{
+    transition: 0.5s all;
+    transform: scale(1.1);
+}
+
+#whats{
+    margin: auto;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #fff;
+    background-color: rgb(48, 48, 48);
+    border-radius: 5px;
+}
+
+#whats:hover{
+    transition: 0.5s all;
+    transform: scale(1.1);
+}
+
+h2{
+    font-size: 18px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 18px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#copy{
+    padding-top: 300px;
+    color: #fff;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 320px) {
+    #insta{
+    margin: auto;
+    max-width: 300px;
+    min-height: 50px;
+    }
+    #whats{
+    margin: auto;
+    max-width: 300px;
+    min-height: 50px;
+    }
+    #copy{
+    padding-top: 20px;
+    }
+}
